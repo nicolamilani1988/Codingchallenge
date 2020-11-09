@@ -1,0 +1,68 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover
+}
+
+.global:not(.buttons){
+  font-family: 'Quicksand', sans-serif;
+}
+
+.centralbody{
+  padding: 40px 80px 40px;
+  background-color: #00000099;
+  margin: 10px 150px 50px;
+  border-radius: 25px;
+}
+
+.logotext{
+  width: 1000;
+  text-align: center;
+  color: #20ca20;
+}
+
+.undertext{
+  margin: 5px;
+}
+
+nav{
+  background-color: #20ca20;
+  border: 10px solid #20ca20;
+  text-align: center;
+}
+
+.type{
+  color: white;
+  margin-top: 20px;
+}
+
+/* qui avrei voluto fare un <h2> anzichè <span> ma non riuscivo a andare a capo con display:inline-block */
+.type>span{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.loading1{
+  color: #f1ca56;
+  background-color: #f1ca56;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.loading2{
+  color: #25bb25;
+  background-color: #25bb25;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.loading3{
+  color: #690b2b;
+  background-color: #690b2b;
+  width: 150px;
+  border-radius: 5px;
+}
